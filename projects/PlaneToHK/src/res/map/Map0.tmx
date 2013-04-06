@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="34" height="36" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="backdrops" value="1"/>
+  <property name="weather" value="true"/>
+ </properties>
+ <tileset firstgid="1" name="GrassTile" tilewidth="32" tileheight="32">
+  <image source="tiles/GrassTile.png" trans="ffffff" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="17" name="HouseTile" tilewidth="32" tileheight="32">
+  <image source="tiles/HouseTile.png" trans="ffffff" width="225" height="225"/>
+ </tileset>
+ <tileset firstgid="66" name="CityTile" tilewidth="32" tileheight="32">
+  <image source="tiles/CityTile.png" trans="ffffff" width="480" height="736"/>
+ </tileset>
+ <layer name="BACKGROUND" width="34" height="36">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3ORw6CYBgG4Z8jYMEuiIq9UFSs6P0v5SQsvMEXF+8kz36c++WjgSZaaCNAx9nWRQ99DDDECGPjjxARJogxxQxz448ECyyxwhobbI0/dtjjgCNSZMiNPwqccMYFJa64wfdqFt3xwBMvVHjjg8irKaWUUkoppZRS6v/7Ai/goGkgEwAA
+  </data>
+ </layer>
+ <layer name="PLATFORMS" width="34" height="36">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2SWwqAMAzAWl/oh+j9T+sGDmSMgmAtaAL529rApiIySBx67h+Tc2BH2U+Hb0d+767S+n9eHXneVGnN9+jQRsPdjv4hWx3F1vnl0mHdfUM66KCDDjq+17Emt2B3AQAAgD9xAEhpo0AgEwAA
+  </data>
+ </layer>
+ <objectgroup name="ACTORGROUP" width="34" height="36">
+  <object name="Player" type="actor" x="154" y="198" width="25" height="41"/>
+  <object name="portal" x="690" y="88" width="31" height="38"/>
+  <object name="police" x="427" y="150" width="48" height="58"/>
+ </objectgroup>
+ <layer name="FOREGROUND" width="34" height="36">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQEAAACCIP+vbkhAAQAAAMCvAUajSWUgEwAA
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="19" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="backdrops" value="1"/>
+ </properties>
+ <tileset firstgid="1" name="CityTile" tilewidth="32" tileheight="32">
+  <image source="tiles/CityTile.png" trans="ff00ff" width="480" height="736"/>
+ </tileset>
+ <tileset firstgid="346" name="GrassTile" tilewidth="32" tileheight="32">
+  <image source="tiles/GrassTile.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="362" name="AirportTerrain" tilewidth="32" tileheight="32">
+  <image source="tiles/AirportTerrain.png" trans="ffffff" width="256" height="479"/>
+ </tileset>
+ <layer name="BACKGROUND" width="100" height="19">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3RSQrCQBSE4TTiAbygNohncjiAs0tnl84unb2HewukIYaYhO5opvrhw014jZRlMcYYY4yxpFWFGtShEcN7SagLPejDwPBWE1rQhs4f3ktjU5jBHBaGt4YwgjFMQnpP3ctKW9jBHg4e3z0D3FrCCtawMXxPpe5lpSvc4A6PL9/kxPs3L7xvHeEEZ7gYvGdP3WPRVxCf0lQR/6dkyK+y0BP0/UqKNuEe8cq+h+Qekee2h3TZRjpwj9/k3EOHX9wjeGoP3S24R7hxj3j1AtjAzhawHQAA
+  </data>
+ </layer>
+ <layer name="PLATFORMS" width="100" height="19">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3RSw7BQBjAcRUXcAEHI4hTeRzA29Lb0tvS2xIXwAX8F5XIpGhTqal+/+S3mUxn2n6hkCRJkiRJkuS3ssghj8KP38WvVVFDHQ2XZxVRQhkVD+77x7rooY+By7OaaKGNjrl2xAlnG/epe4PYFDPMsXB51hAjjDEx1y644mbjPnVvENtihz0Ob/ZFjM9nLbHCGpvHIs8ZCBs27lP2/nNxvjFhSj9JOJBE7IW4w7NUUQtqVmtBLvPmf6TkX3mezEOvZB56JfPQK5mHXsk89Erm8b3uKBbKTrAdAAA=
+  </data>
+ </layer>
+ <layer name="FOREGROUND" width="100" height="19">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3OuRXCUAwFUZn+c5YCDBTAUgCYHGxylgaABpgS+MG3AuYeTaTkRUiSJOnfTWlGc1okb1FES0ta0Tp5iyI2tKUd7ZO31HSnBz0Lf2M70JE6OtE5d041L3rTp/A3tgv1NNCVbrlz6mk4mjSFP0mSJEn6wRfYa+4EsB0AAA==
+  </data>
+ </layer>
+ <objectgroup name="ACTORGROUP" width="100" height="19">
+  <object name="player" x="22" y="275" width="54" height="55"/>
+  <object name="portal" x="1484" y="321" width="34" height="47"/>
+ </objectgroup>
+</map>

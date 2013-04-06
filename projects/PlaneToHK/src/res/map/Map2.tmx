@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="59" height="32" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="time" value="180"/>
+ </properties>
+ <tileset firstgid="1" name="AirportTerrain" tilewidth="32" tileheight="32">
+  <image source="tiles/AirportTerrain.png" trans="ffffff" width="256" height="479"/>
+ </tileset>
+ <tileset firstgid="113" name="AirportTile" tilewidth="32" tileheight="32">
+  <image source="tiles/AirportTile.png" trans="ffffff" width="256" height="640"/>
+ </tileset>
+ <tileset firstgid="273" name="CityTile" tilewidth="32" tileheight="32">
+  <image source="tiles/CityTile.png" trans="ffffff" width="480" height="736"/>
+ </tileset>
+ <layer name="BACKGROUND" width="59" height="32" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3XR2vEMBCGYeWYTuriNEiFlE3v3ellU67pbCrp//+W92CBDz5YjleWtD482NhjwzcgMfJqhPByThoVQoxhHBMoYhJTmBb/qzehNmyGd7OYwzwWsIglLEd8p1JvQm3YCu9WsYZ1bGATW9hGbaAO9SJefda1Mlsj901oDp75XHewiz3s4wCHOIrokUp91rUd3HeiEDw75nqCU5RwhnNc4DIiq0q9CbXVKLwGGhzvRwv5WtGGdsezeuTrQjd6HM/aT74BDGKowlmv+P81bnCLO9zjwcEel8n0iCc84wWveHMw6zuZPvCJL3zjB78OZs2lI+lZwEZJzwJp6OX/fRr7GfcsUAnD/H9EY1Zf4dxgO5WzQL62461t2+ahJGtb7j9ly+YhP8HalvuPbfOQTef8fG9Jf24woae65oYsZzHJ1zQ3ZDmLSbr2Fl09NYFN+3U1+wNDSo6JgB0AAA==
+  </data>
+ </layer>
+ <layer name="PLATFORMS" width="59" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3WSwrAIAwFQPEm0vvfsXuxtVA1/cxA1kZ9hKQEAPRsObqDddx1vpKPa5Y//evZ+94paJEdrhoxh+s8RWSvd47cxzCH4HuevqPapYE3M7tYYQc/w+7ogB0AAA==
+  </data>
+ </layer>
+ <layer name="FOREGROUND" width="59" height="32" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3XbQ7CIAwG4G7/lDNoMEbjkTgC9z/B+LOMMFjBUQraJ3kTA8k+6CybAoCLy9VF/fhvIUYzBVG8l0Nq4r6Ahv7tXv2IcqZwfGTW5ROJJTyngf1axsbOHK8XFvZrHI4didWFsjZibOHzEpsXebBvnZTcfkTZt24ud6Jj+2L9LbWfUPWtl8s7cd7aHvOWms7U6zlv6VFYk7VenL79b4v2NJIeGEj386O5VmruBxbSfd+f45KzH1DuEdJb8mkkK1lTgfVQ7h5bE/Zezd1jR6CRiHIaSUul3zsLllG9KoAdAAA=
+  </data>
+ </layer>
+ <objectgroup name="ACTORGROUP" width="59" height="32">
+  <object name="Player" x="45" y="322" width="36" height="44"/>
+  <object name="portal" x="1825" y="304" width="40" height="61"/>
+  <object name="police" x="441" y="481" width="35" height="48"/>
+  <object name="police" x="947" y="397" width="35" height="48"/>
+  <object name="police" x="506" y="727" width="35" height="48"/>
+  <object name="police" x="664" y="253" width="35" height="48"/>
+  <object name="police" x="1179" y="669" width="35" height="48"/>
+  <object name="police" x="853" y="871" width="35" height="48"/>
+  <object name="police" x="1312" y="466" width="35" height="48"/>
+  <object name="police" x="1694" y="287" width="35" height="48"/>
+  <object name="police" x="1583" y="289" width="35" height="48"/>
+  <object name="police" x="795" y="569" width="35" height="48"/>
+  <object name="police" x="996" y="397" width="35" height="48"/>
+  <object name="barrier" x="283" y="511" width="10" height="16"/>
+  <object name="barrier" x="531" y="511" width="15" height="18"/>
+  <object name="barrier" x="419" y="730" width="15" height="18"/>
+  <object name="barrier" x="796" y="735" width="15" height="18"/>
+  <object name="barrier" x="705" y="582" width="15" height="18"/>
+  <object name="barrier" x="949" y="580" width="15" height="18"/>
+  <object name="barrier" x="826" y="422" width="15" height="18"/>
+  <object name="barrier" x="1116" y="418" width="15" height="18"/>
+  <object name="barrier" x="571" y="286" width="15" height="18"/>
+  <object name="barrier" x="794" y="279" width="15" height="18"/>
+  <object name="barrier" x="1023" y="708" width="15" height="18"/>
+  <object name="barrier" x="1332" y="701" width="15" height="18"/>
+  <object name="barrier" x="1367" y="514" width="15" height="18"/>
+  <object name="barrier" x="1217" y="518" width="15" height="18"/>
+  <object name="barrier" x="1646" y="322" width="15" height="18"/>
+  <object name="barrier" x="1759" y="323" width="15" height="18"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,1 @@
+Simple timer desktop app aimed for timing Rubik's cube solving.

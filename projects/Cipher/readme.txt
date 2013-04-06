@@ -1,0 +1,1 @@
+Program used to encode messages. It uses a one time pad which is repeated to match the length of input

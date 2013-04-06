@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="42" height="32" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="backdrops" value="1"/>
+  <property name="boss" value="true"/>
+  <property name="time" value="180"/>
+  <property name="weather" value="true"/>
+ </properties>
+ <tileset firstgid="1" name="AirportTerrain" tilewidth="32" tileheight="32">
+  <image source="tiles/AirportTerrain.png" trans="ffffff" width="256" height="479"/>
+ </tileset>
+ <tileset firstgid="113" name="AirportTile" tilewidth="32" tileheight="32">
+  <image source="tiles/AirportTile.png" trans="ffffff" width="256" height="640"/>
+ </tileset>
+ <layer name="BACKGROUND" width="42" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3Jtw2AQADAQPbfjJxzHAU3vwDVI/kkV04SSdJXKWWUU0ElVVRTE8EPWuqop4FGmmimJYIfrLTRTgeddNFNTwRfkiRJkvQ/L9u9A3MAFQAA
+  </data>
+ </layer>
+ <layer name="PLATFORMS" width="42" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DwQkAAAgEoJu9Fg+aoG+gYAIAXPWTpaqq6h6A/hy2ABUAAA==
+  </data>
+ </layer>
+ <layer name="FOREGROUND" width="42" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQ0AAADCoPdPbQ8HFAAAAADApwH6CGxGABUAAA==
+  </data>
+ </layer>
+ <objectgroup name="ACTORGROUP" width="42" height="32">
+  <object name="player" x="28" y="303" width="33" height="38"/>
+  <object name="police" x="510" y="309" width="26" height="37"/>
+  <object name="police" x="725" y="312" width="27" height="38"/>
+  <object name="police" x="894" y="314" width="35" height="36"/>
+  <object name="police" x="344" y="301" width="28" height="42"/>
+  <object name="police" x="228" y="307" width="42" height="33"/>
+  <object name="portal" x="1263" y="298" width="29" height="45"/>
+  <object name="police" x="948" y="314" width="35" height="36"/>
+  <object name="police" x="826" y="309" width="35" height="36"/>
+  <object name="police" x="1108" y="315" width="35" height="36"/>
+  <object name="police" x="639" y="312" width="35" height="36"/>
+ </objectgroup>
+</map>
